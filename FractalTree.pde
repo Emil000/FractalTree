@@ -12,9 +12,9 @@ public void draw()
 	background(0);   
 	stroke(112,128,144,40);   
 	strokeWeight(4);
-	line(330,480,330,380);   
+	line(330,500,330,400);   
 	
-	drawBranches(330,380,100,3*(Math.PI)/2);
+	drawBranches(330,400,100,3*(Math.PI)/2);
 
 	fractionLength+=0.00015;
   	branchAngle+=.0001;
